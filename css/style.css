@@ -1,0 +1,113 @@
+body {
+	background-image: url("../assets/bg-prime.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Clash Display", sans-serif;
+}
+
+.blur1 {
+	background: #181717;
+	filter: blur(500px);
+}
+
+.blur2 {
+	background: #181717;
+	filter: blur(450px);
+}
+
+.container {
+	min-height: 100vh;
+}
+
+.container .navbar {
+	margin-top: 48px;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.container .navbar .arrows {
+	display: flex;
+	align-items: center;
+}
+
+.container .navbar .arrows .arrow1 {
+	cursor: pointer;
+}
+
+.container .navbar .arrows .arrow1 img {
+	width: 51.51px;
+	height: 38px;
+}
+
+.container .navbar .arrows .arrow2 {
+	position: absolute;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.container .navbar .arrows .arrow2 img {
+	width: 51.51px;
+	height: 38px;
+}
+
+.container .navbar .nav-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container .navbar .nav-items .nav-links {
+	display: flex;
+	align-items: center;
+	margin-left: 60px;
+	justify-content: flex-start;
+}
+
+.container .navbar .nav-items .nav-links .nav-link {
+	cursor: pointer;
+	margin-left: 60px;
+}
+
+.container .navbar .nav-items .nav-links .nav-link a {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+	color: #ffffff;
+}
+
+.container .navbar .nav-items .nav-links .nav-link a:hover {
+	color: #ffc107;
+}
+
+.container .navbar .nav-items .sign-in-up {
+	display: flex;
+	align-items: center;
+}
+
+.container .navbar .nav-items .sign-in-up .sign-in a {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+.container .navbar .nav-items .sign-in-up .sign-up {
+	margin-left: 40px;
+}
+
+.container .navbar .nav-items .sign-in-up .sign-up button {
+	background: #92377a;
+	mix-blend-mode: lighten;
+	opacity: 0.7;
+	border: 1px solid #ff00bc;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+}
